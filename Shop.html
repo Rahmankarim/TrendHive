@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+  <body>
+    <div class="container-fluid main-fixed-container bg-light" style="top: 0">
+      <div class="row">
+        <div class="col-xxl-2 HeaderElements0">
+          <a href="./home.html" class="headerTextInner display-5"
+            ><span class="text-primary display-5" style="font-weight: bold"
+              >TREND</span
+            >Hive</a
+          >
+        </div>
+
+        <div class="col-xxl-7 HeaderElements1">
+          <div class="Menu-list">
+            <nav class="navbar navbar-expand-lg">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="navbar-list menu-main">
+                    <a href="./home.html" class="nav-link">Home</a>
+                  </li>
+                  <li class="navbar-list">
+                    <a href="./Shop.html" class="nav-link active">Shop</a>
+                  </li>
+                  <li class="navbar-list">
+                    <a href="./features.html" class="nav-link"
+                      >Features
+                      <span class="badge rounded-pill bg-danger">HOT</span>
+                    </a>
+                  </li>
+                  <li class="navbar-list">
+                    <a href="./blog.html" class="nav-link">Blog</a>
+                  </li>
+                  <li class="navbar-list">
+                    <a href="./about.html" class="nav-link">About</a>
+                  </li>
+                  <li class="navbar-list">
+                    <a href="./contact.html" class="nav-link">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="col-xxl-3 HeaderElements2">
+          <div class="icons-menu d-flex">
+            <nav class="d-flex navbar navbar-expand-lg">
+              <input
+                type="text"
+                name="Search "
+                id="Search"
+                class="form-control"
+                placeholder="Search"
+                style="margin-right: 15px; display: none"
+              />
+              <ul class="navbar-nav">
+                <li class="navbar-list">
+                  <a href="#" id="Search-icon"
+                    ><i class="material-symbols-outlined">search</i></a
+                  >
+                </li>
+                <li class="navbar-list">
+                  <a href="#" class="cart-click" id="cart-click-id"
+                    ><i class="material-symbols-outlined">shopping_cart</i></a
+                  >
+                </li>
+                <li class="navbar-list">
+                  <a href="#" class="menu-click" id="menu-click">
+                    <i class="material-symbols-outlined">menu</i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <aside id="aside">
+      <div class="aside-menu container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="cross">
+              <a href="#" id="close">
+                <i class="material-symbols-outlined" style="line-height: 1.5"
+                  >close</i
+                ></a
+              >
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="menu-mini">
+              <ul class="mini-menu-ul">
+                <li>
+                  <a class="h5" href="">Home</a>
+                </li>
+                <li>
+                  <a class="h5" href="">My Wishlist</a>
+                </li>
+                <li>
+                  <a class="h5" href="">My Account</a>
+                </li>
+                <li>
+                  <a class="h5" href="">Track Oder</a>
+                </li>
+                <li>
+                  <a class="h5" href="">Refunds</a>
+                </li>
+                <li>
+                  <a class="h5" href="">Help & FAQs</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12">
+            <h4 class="h4">@TRENDHive</h4>
+          </div>
+          <div class="col-12 mb-4">
+            <div class="row">
+              <div class="col-4 mt-4">
+                <img class="img-fluid" src="./images/gallery-01.jpg" alt="" />
+              </div>
+              <div class="col-4 mt-4">
+                <img class="img-fluid" src="./images/gallery-02.jpg" alt="" />
+              </div>
+              <div class="col-4 mt-4">
+                <img class="img-fluid" src="./images/gallery-03.jpg" alt="" />
+              </div>
+              <div class="col-4 mt-4">
+                <img class="img-fluid" src="./images/gallery-04.jpg" alt="" />
+              </div>
+              <div class="col-4 mt-4">
+                <img class="img-fluid" src="./images/gallery-05.jpg" alt="" />
+              </div>
+              <div class="col-4 mt-4">
+                <img class="img-fluid" src="./images/gallery-06.jpg" alt="" />
+              </div>
+              <div class="col-4 mt-4">
+                <img class="img-fluid" src="./images/gallery-07.jpg" alt="" />
+              </div>
+              <div class="col-4 mt-4">
+                <img class="img-fluid" src="./images/gallery-08.jpg" alt="" />
+              </div>
+              <div class="col-4 mt-4">
+                <img class="img-fluid" src="./images/gallery-09.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 text-center">
+            <h4 class="h4">About US</h4>
+          </div>
+          <div class="col-12 text-center">
+            <p>
+              At TrendHive, we are more than just a fashion brand – we're a hive
+              of creativity, inspiration, and style. Our mission is to curate
+              the latest trends, foster a vibrant community of fashion
+              enthusiasts, and empower individuals to express their unique sense
+              of style with confidence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <aside id="aside-cart">
+      <div class="aside-menu-cart container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="cross">
+              <a href="#" id="close1">
+                <i class="material-symbols-outlined" style="line-height: 1.5"
+                  >close</i
+                ></a
+              >
+            </div>
+          </div>
+          <div class="col-12">
+            <h3>Your Cart</h3>
+          </div>
+          <div class="col-6">
+            <img
+              src="./images/product-09.jpg"
+              class="img-fluid mt-4 widthImage"
+              alt=""
+              width="100%"
+            />
+          </div>
+          <div class="col-6">
+            <h4>Converse all Star</h4>
+            <p>1 x $17.00</p>
+          </div>
+          <div class="col-6">
+            <img
+              src="./images/product-14.jpg"
+              class="img-fluid mt-4 widthImage"
+              alt=""
+              width="100%"
+            />
+          </div>
+          <div class="col-6">
+            <h4>Black top</h4>
+            <p>1 x $21.00</p>
+          </div>
+          <div class="col-6">
+            <img
+              src="./images/product-15.jpg"
+              class="img-fluid mt-4 widthImage"
+              alt=""
+              width="100%"
+            />
+          </div>
+          <div class="col-6">
+            <h4>Nixon Proter Leather</h4>
+            <p>1 x $20.00</p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-12">
+            <h2 style="margin-top: 150px">Total: $58.00</h2>
+          </div>
+
+          <div class="col-6 mt-3 mb-5">
+            <a
+              class="btn btn-success rounded-pill"
+              href=""
+              style="width: 145px; height: 45px; font-size: 24px"
+            >
+              View Cart
+            </a>
+          </div>
+          <div class="col-6 mt-3 mb-5">
+            <a
+              class="btn btn-success rounded-pill"
+              href=""
+              style="width: 145px; height: 45px; font-size: 24px"
+            >
+              check out
+            </a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <div class="container">
+      <div class="row ms-5 me-5 text-center" style="margin-top: 40px">
+        <div class="col-lg-12 mt-5">
+          <button
+            class="btn mt-5 ms-5 headernames"
+            id="allproducts"
+            style="color: #0d6efd"
+          >
+            All Products
+          </button>
+          <button class="btn mt-5 ms-3 headernames" id="women">Women</button>
+          <button class="btn mt-5 ms-3 headernames" id="men">Men</button>
+          <button class="btn mt-5 ms-3 headernames" id="shoes">Shoes</button>
+          <button class="btn mt-5 ms-3 headernames" id="watch">Watch</button>
+        </div>
+        <div class="col-lg-3 mt-5 women allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/product-01.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Esprit Ruffle Shirt </a>
+
+          <p>$16.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 women allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/product-02.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Herschel supply </a>
+
+          <p>$35.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 men allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/product-03.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Only Check Trouser</a>
+
+          <p>$25.61</p>
+        </div>
+        <div class="col-lg-3 mt-5 women allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/product-04.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Classic Trench Coat</a>
+
+          <p>$45.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 women allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/product-05.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Front Pocket Jumper</a>
+
+          <p>$34.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 watch allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/product-06.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Vintage Inspired Classic</a>
+
+          <p>$75.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 women allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/product-07.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Shirt in Stretch Cotton</a>
+
+          <p>$15.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 women allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/product-08.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Pieces Metallic Printed</a>
+
+          <p>$19.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 men allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/gallery-01.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Converse All Star Hi Plimsolls</a>
+
+          <p>$35.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 women allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/gallery-02.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Femme T-Shirt In Stripe </a>
+
+          <p>$25.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 men allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/gallery-03.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Herschel supply </a>
+
+          <p>$35.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 men allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/gallery-04.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">T-Shirt with Sleeve</a>
+
+          <p>$15.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 women allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/gallery-05.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Pretty Little Thing</a>
+
+          <p>$23.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 women allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/gallery-06.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Mini Silver Mesh Watch</a>
+
+          <p>$65.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 men allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/gallery-07.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Herschel supply </a>
+
+          <p>$35.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 women allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/gallery-08.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Herschel supply </a>
+
+          <p>$35.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 shoes allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/product-09.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Herschel supply </a>
+
+          <p>$35.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 women allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/product-10.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Herschel supply </a>
+
+          <p>$35.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 men allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/product-11.jpg"
+            alt="./"
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Herschel supply </a>
+
+          <p>$35.64</p>
+        </div>
+        <div class="col-lg-3 mt-5 women allp">
+          <img
+            class="img-fluid transform-images"
+            src="./images/product-14.jpg"
+            alt=""
+          />
+          <br /><br />
+          <div class="d-flex img-text-btn" style="position: absolute">
+            <a id="img-btn" href="" class="btn btn-primary img-btn"
+              >Quick View</a
+            >
+          </div>
+          <div style="text-align: right; max-width: 100%">
+            <img class="heart-img" src="./images/icon-heart-01.png" alt="" />
+          </div>
+          <a class="names-section" href="">Pretty Little Thing</a>
+
+          <p>$35.64</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid quickViewDIv" id="quickview">
+      <div class="container quickViewDIvInner">
+        <div class="row">
+          <div class="col-lg-12" style="text-align: end">
+            <i
+              class="material-symbols-outlined"
+              style="line-height: 1.5"
+              id="close-cart"
+              >close</i
+            >
+          </div>
+          <div class="col-lg-1">
+            <div class="imagein-col col-lg-12 mt-3">
+              <img
+                src="./images/product-detail-02.jpg"
+                alt=""
+                class="img-fluid imageAddToCart"
+                width="100%"
+              />
+            </div>
+            <div class="imagein-col col-lg-12 mt-3">
+              <img
+                src="./images/product-detail-03.jpg"
+                alt=""
+                class="img-fluid imageAddToCart"
+                width="100%"
+              />
+            </div>
+            <div class="imagein-col col-lg-12 mt-3">
+              <img
+                src="./images/product-detail-01.jpg"
+                alt=""
+                class="img-fluid imageAddToCart"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 mt-3">
+            <img
+              id="img-fluidcimageInCart"
+              src="./images/product-detail-02.jpg"
+              alt=""
+              width="100%"
+            />
+          </div>
+          <div class="col-lg-5">
+            <h2>Lightweight Jacket</h2>
+            <h4>$58.79</h4>
+            <p>
+              Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus
+              ligula. Mauris consequat ornare feugiat.
+            </p>
+            <h5>Size:</h5>
+            <select class="form-select">
+              <option value="Choose an option">Choose an option</option>
+              <option value="Size S">Size S</option>
+              <option value="Size M">Size M</option>
+              <option value="Size L">Size L</option>
+              <option value="Size XL">Size XL</option>
+            </select>
+            <h5 class="mt-4">Color:</h5>
+            <select class="form-select">
+              <option value="Choose an option">Choose an option</option>
+              <option value="Red">Red</option>
+              <option value="Blue">Blue</option>
+              <option value="White">White</option>
+              <option value="Gray">Gray</option>
+            </select>
+
+            <div class="mt-5 d-flex" style="justify-content: center">
+              <input
+                style="width: 100px; position: relative"
+                class="form-control"
+                type="number"
+                value="1"
+                min="1"
+              />
+            </div>
+            <div class="mt-3 d-flex" style="justify-content: center">
+              <button class="btn btn-success rounded-pill">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 text-center">
+      <button class="btn rounded-pill loadMoreBtn">Load More</button>
+    </div>
+    <br /><br />
+    <div class="footer container-fluid">
+      <div class="row text-light text-center">
+        <div class="col-lg-3">
+          <h3 class="h3" style="margin-top: 12px; font-weight: bold">
+            CATEGORIES
+          </h3>
+          <ul class="unorderedfooter" style="list-style-type: none">
+            <li>Women</li>
+            <li>Men</li>
+            <li>Shoes</li>
+            <li>Watches</li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h3 class="h3" style="margin-top: 12px; font-weight: bold">Help</h3>
+          <ul class="unorderedfooter" style="list-style-type: none">
+            <li>Track Order</li>
+            <li>Returns</li>
+            <li>Shipping</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div class="form was-validated">
+            <div class="row">
+              <div class="col-sm-6">
+                <input
+                  class="form-control"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <br />
+              <div class="col-sm-6">
+                <input
+                  class="form-control"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="example@gmail.com"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <textarea
+                  class="form-control mt-4"
+                  name="textarea"
+                  id="textarea"
+                  placeholder="Message"
+                  rows="7"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <a href="#" class="btn btn-success mt-4 rounded-pill"
+                  >Send Message</a
+                >
+                <br /><br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/shop.js"></script>
+  </body>
+</html>
