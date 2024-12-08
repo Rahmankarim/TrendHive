@@ -1,5 +1,5 @@
 # TrendHive  
-
+## [TrendHive Live](https://rahmankarim.github.io/TrendHive/)
 TrendHive is a modern and stylish web application that showcases the latest trends, clothing collections, and style inspirations. This project is built with **HTML5**, **CSS3**, **JavaScript**, and **Bootstrap 5**, focusing on responsive design and an engaging user experience.  
 
 ## Features  
